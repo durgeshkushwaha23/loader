@@ -13,7 +13,7 @@ function time(){
         }
     },150)
 }
- 
+   
 tl.to("#loader h1",{
     dealy:0.5,
     duration:3,
@@ -31,7 +31,7 @@ gsap.to(".page2 h1",{
     scrollTrigger:{
         trigger:".page2",
         scroller:"body",
-        markers:true,
+        // markers:true,
         start:"top 10%",
         end:"top -200%",
         scrub:4,
